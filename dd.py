@@ -2,7 +2,7 @@ import streamlit as st
 import groq
 
 # Set up the Groq API client
-groq_api_key = "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"  # Replace with your actual Groq API key
+groq_api_key = "your key"  # Replace with your actual Groq API key
 client = groq.Client(api_key=groq_api_key)
 
 # Streamlit UI
